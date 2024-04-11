@@ -39,7 +39,7 @@ body {
     padding: 40px 20px 30px 10px;
     color: #fff;
     height: 400px;
-    background-image: url("imagens/bg-jelly-fish-para_outras_pags.png");
+    background-image: url("./imagens/bg-jelly-fish-para_outras_pags.png");
 }
 
 .banner .container {
@@ -126,6 +126,7 @@ body {
     flex-direction: column;
     color: palevioletred;
     row-gap: 20px;
+    
 }
 
 .card-login {
@@ -157,10 +158,25 @@ body {
     padding: 10px 50px;
 }
 
+.formulario button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: palevioletred;
+    border: none;
+    color: #fff;
+}
+
 .campo {
     display: flex;
     flex-direction: column;
     justify-content: start;
+    align-items: center;
+}
+.campo input{
+    width: 200px;
+    margin: 5px;
+    padding: 7px 15px;
+    border: 2px solid #32b9cd;
 }
 
 .botao {
@@ -174,4 +190,14 @@ body {
     width: 120px;
     height: 30px;
     align-self: center;
+}
+
+.header a{
+    text-decoration: none;
+    color: #e3b062;
+    cursor: pointer;
+}
+
+.agora {
+    font-weight: 800;
 }
